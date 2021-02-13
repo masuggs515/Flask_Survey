@@ -3,8 +3,9 @@
 <h1>Thank you for filling out our survey</h1>
 <p>Here are your responses:</p>
 <ul>
-{% for answer in responses %}
-<li>{{answer}}</li>
-{% endfor %}
+    {% for answer in responses %}
+    <li> {{answer}}</li>
+    {% endfor %}
+
 </ul>
 {% endblock %}
