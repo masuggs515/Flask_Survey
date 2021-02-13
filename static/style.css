@@ -1,0 +1,12 @@
+body{
+   margin: 2rem;
+}
+
+.error{
+    background-color: rgba(255,0,0,0.1);
+    padding: 2rem;
+    border-radius: 10px;
+}
+ul{
+    list-style: none;
+}
